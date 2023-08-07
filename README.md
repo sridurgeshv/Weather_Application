@@ -1,11 +1,16 @@
 # Building a Weather Information Web Application
-Creating an interactive web app with dynamic background videos based on weather conditions. Users can access real-time weather details by location or specific search.
-#  Load Weather Data on Website Load & Dynamically Change Background Video : 
-Incorporate the loadSite() function, executed on page load or user request, to fetch weather data based on their current location.Implement the getWeather() function to modify the background video dynamically, reflecting the weather conditions retrieved from the API response.
-# Dynamic Background Video for Different Weather Conditions & Weather Search Functionality
-Employ the setWeatherVideo() function, utilizing distinct videoName values corresponding to various weather conditions, enabling dynamic background video adjustments on the webpage.Integrate searchWeather() to allow users to search for specific locations' weather details and display the updated weather information on the webpage.
-# User-Friendly Weather Presentation
-Utilize displayWeatherDetails() to present the API's weather information in a user-friendly format on the webpage, ensuring a seamless user experience.
+Our project endeavors to create an interactive web application that delivers real-time weather information to users. To enhance user engagement, we will incorporate dynamic background videos that correspond to the prevailing weather conditions.
+
+# Load Weather Data & Dynamic Background Video : 
+Upon website load or user request, the loadSite() function will fetch weather data based on the user's current location. The getWeather() function will dynamically modify the background video to reflect the API's weather conditions, offering users an immersive visual experience.
+
+# Dynamic Background Video & Weather Search :
+We will implement the setWeatherVideo() function, enabling dynamic background video adjustments using distinct videoName values aligned with various weather conditions. Additionally, users can utilize the searchWeather() function to access weather details for specific locations, updating the displayed information accordingly.
+
+# User-Friendly Weather Presentation :
+The displayWeatherDetails() function will present API-derived weather information in a user-friendly format on the webpage. Intuitive design choices and informative displays will empower users to comprehend weather conditions easily.
+
+In summary, our Weather Information Web Application will offer an engaging experience with dynamic background videos and real-time weather updates. Through a user-friendly interface, we aim to provide valuable insights into weather conditions and foster a deeper appreciation for the wonders of nature.
 
 You can access the application by following this link:\
 https://weatherapp-48e5a.web.app/

@@ -7,4 +7,5 @@ Employ the setWeatherVideo() function, utilizing distinct videoName values corre
 # User-Friendly Weather Presentation
 Utilize displayWeatherDetails() to present the API's weather information in a user-friendly format on the webpage, ensuring a seamless user experience.
 
-Here you can test it - https://weatherapp-48e5a.web.app/
+You can access the application by following this link:\
+https://weatherapp-48e5a.web.app/

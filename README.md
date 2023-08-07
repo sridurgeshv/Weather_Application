@@ -1,7 +1,7 @@
 # Building a Weather Information Web Application
 Our project endeavors to create an interactive web application that delivers real-time weather information to users. To enhance user engagement, we will incorporate dynamic background videos that correspond to the prevailing weather conditions.
 
-# Load Weather Data & Dynamic Background Video : 
+# Load Weather Data & Implement Dynamic Background Video: 
 Upon website load or user request, the loadSite() function will fetch weather data based on the user's current location. The getWeather() function will dynamically modify the background video to reflect the API's weather conditions, offering users an immersive visual experience.
 
 # Dynamic Background Video & Weather Search :

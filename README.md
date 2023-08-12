@@ -13,4 +13,4 @@ The displayWeatherDetails() function will present API-derived weather informatio
 In summary, our Weather Information Web Application will offer an engaging experience with dynamic background videos and real-time weather updates. Through a user-friendly interface, we aim to provide valuable insights into weather conditions and foster a deeper appreciation for the wonders of nature.
 
 You can access the application by following this link:\
-https://weatherapp-48e5a.web.app/
+https://weather-application-815eb.web.app

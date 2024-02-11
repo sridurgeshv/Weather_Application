@@ -1,25 +1,55 @@
-<!DOCTYPE html>
-<html lang="en">
-<body>
 
-  <h1>Real-time Weather Experience</h1>
-  <p>Discover our innovative Weather Application utilizing OpenWeatherMap API, offering precise real-time weather updates complemented by dynamic background videos tailored to the weather conditions.</p>
+# Real-time Weather Experience
 
-  <h2>Dynamic Weather Visualization</h2>
-  <p>Witness weather information dynamically visualized on your screen with adaptive background videos. The application fetches real-time data through API calls, presenting it in an engaging format.</p>
+Explore our innovative Weather Application that utilizes the OpenWeatherMap API, providing accurate real-time weather updates enhanced by dynamic background videos tailored to the current weather conditions.
 
-  <h2>5-Day Weather Forecast</h2>
-  <p>Explore a comprehensive 5-day weather forecast meticulously curated for easy comprehension, helping you stay well-prepared for upcoming weather trends.</p>
 
-  <h2>Location-specific Weather</h2>
-  <p>Effortlessly search and access precise weather details for your desired locations. The intuitive search feature ensures customized weather information for your selected destinations.</p>
+## API Reference
 
-  <h2>User-Centric Interface</h2>
-  <p>Experience seamless navigation through an intuitively designed user interface prioritizing convenience, enabling effortless access to the weather information you need.</p>
+#### Get all items
 
-  <p>In summary, our Weather Information Web Application offers an immersive experience, combining dynamic videos with real-time weather data through a user-centered interface.</p>
+To get weather data for a specific location, you can use the following URL format:
 
-  <p>Explore the application firsthand by visiting the following link:</p>
-   <a href="https://weather-application-815eb.web.app">Weather Application Link</a>
-</body>
-</html>
+```http
+GET https://api.openweathermap.org/data/2.5/weather?lat={latitude}&lon={longitude}&appid={your_api_key}
+```
+Replace {latitude} and {longitude} with the latitude and longitude coordinates of the location for which you want to retrieve weather data. Also, replace {your_api_key} with your actual API key obtained from OpenWeatherMap.
+
+### Parameters
+- lat: Latitude of the location (required)
+- lon: Longitude of the location (required)
+- appid: Your OpenWeatherMap API key (required)
+
+
+
+
+## Documentation
+
+### Dynamic Weather Visualization
+Experience weather information dynamically visualized on your screen with adaptive background videos. The application retrieves real-time data through API calls, presenting it in an engaging format.
+
+### 5-Day Weather Forecast
+Discover a comprehensive 5-day weather forecast carefully curated for easy understanding, helping you stay well-prepared for upcoming weather trends.
+
+### Location-specific Weather
+Easily search and access accurate weather details for your preferred locations. The intuitive search feature ensures personalized weather information for your selected destinations.
+
+### User-Centric Interface
+Enjoy smooth navigation through an intuitively designed user interface focused on convenience, allowing easy access to the weather information you require.
+
+
+
+
+## Features
+
+- Location-Based Weather Search
+- Comprehensive Forecast
+- Dynamic Background Videos
+- Live Previews
+- Fullscreen Mode
+
+## Usage
+
+Explore the application firsthand by visiting the following link: 
+[Weather Application Link](https://weather-application-815eb.web.app)
+

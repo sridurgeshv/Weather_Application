@@ -34,16 +34,6 @@ GET https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(locationIn
 
 The provided API, based on OpenStreetMap's Nominatim service, retrieves location data for a given input string. It returns information such as coordinates and address details, with an optional parameter for specifying the response format.
 
-
-
-### Parameters
-- lat: Latitude of the location (required)
-- lon: Longitude of the location (required)
-- appid: Your OpenWeatherMap API key (required)
-
-
-
-
 ## Documentation
 
 ### Dynamic Weather Visualization

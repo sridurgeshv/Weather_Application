@@ -10,7 +10,7 @@ To get weather data for a specific location, you can use the following URL forma
 
 
 ```http
-https://api.openweathermap.org/data/2.5/weather?lat={latitude}&lon={longitude}&appid={your_api_key}
+GET https://api.openweathermap.org/data/2.5/weather?lat={latitude}&lon={longitude}&appid={your_api_key}
 
 ```
 

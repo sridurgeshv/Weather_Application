@@ -34,32 +34,35 @@ GET https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(locationIn
 
 The provided API, based on OpenStreetMap's Nominatim service, retrieves location data for a given input string. It returns information such as coordinates and address details, with an optional parameter for specifying the response format.
 
-## Documentation
+## Table of Contents
+
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Usage](#usage)
+
+## 1. Introduction
 
 ### Dynamic Weather Visualization
-Experience weather information dynamically visualized on your screen with adaptive background videos. The application retrieves real-time data through API calls, presenting it in an engaging format.
+The Dynamic Weather Visualization application offers users the opportunity to experience weather information dynamically visualized on their screens, accompanied by adaptive background videos. Real-time data retrieved through API calls is presented in an engaging format, providing users with an immersive weather experience.
 
 ### 5-Day Weather Forecast
-Discover a comprehensive 5-day weather forecast carefully curated for easy understanding, helping you stay well-prepared for upcoming weather trends.
+Users can access a comprehensive 5-day weather forecast, carefully curated for easy understanding. This forecast assists users in staying well-prepared for upcoming weather trends, ensuring they are equipped to plan their activities accordingly.
 
 ### Location-specific Weather
-Easily search and access accurate weather details for your preferred locations. The intuitive search feature ensures personalized weather information for your selected destinations.
+Easily search and access accurate weather details for preferred locations using the intuitive search feature. This feature ensures personalized weather information for selected destinations, enhancing user convenience and satisfaction.
 
 ### User-Centric Interface
-Enjoy smooth navigation through an intuitively designed user interface focused on convenience, allowing easy access to the weather information you require.
+The application boasts a user-centric interface designed for smooth navigation and convenience. Users can effortlessly access the weather information they require, thanks to the intuitively designed user interface.
 
+## 2. Features
 
+- **Location-Based Weather Search**: Enables users to search for weather details based on their preferred locations.
+- **Comprehensive Forecast**: Provides users with a detailed 5-day weather forecast for better planning.
+- **Dynamic Background Videos**: Enhances user experience with adaptive background videos corresponding to weather conditions.
+- **Live Previews**: Offers real-time updates and previews of weather information.
+- **Fullscreen Mode**: Allows users to view weather information in fullscreen mode for a more immersive experience.
 
-
-## Features
-
-- Location-Based Weather Search
-- Comprehensive Forecast
-- Dynamic Background Videos
-- Live Previews
-- Fullscreen Mode
-
-## Usage
+## 3. Usage
 
 Explore the application firsthand by visiting the following link: 
 [Weather Application Link](https://weather-application-815eb.web.app)
